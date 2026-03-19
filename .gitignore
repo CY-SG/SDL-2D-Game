@@ -1,0 +1,15 @@
+# Visual Studio
+.vs/
+
+# build
+Debug/
+Release/
+x64/
+x86/
+
+# compiled files
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.log

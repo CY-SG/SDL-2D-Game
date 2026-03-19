@@ -1,0 +1,693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Engine">
+      <UniqueIdentifier>{3c42f3f6-26d6-43e9-b071-246a36c1688f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\Core">
+      <UniqueIdentifier>{466b7112-25e0-4737-b7b3-8ce01510c47a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\Platform">
+      <UniqueIdentifier>{95e9d295-f46e-4a24-bba6-5b37ae60f075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\Platform\SDL">
+      <UniqueIdentifier>{e4b39451-8aea-4cd4-8a0d-b4c73a253b38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Engine">
+      <UniqueIdentifier>{36c0a17c-b6ae-414d-a3f4-3e12ec2e962c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Engine\Core">
+      <UniqueIdentifier>{c8c48961-f677-4dae-9a79-c6752f762f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Engine\Platform">
+      <UniqueIdentifier>{94b7e29a-6cde-44ea-996e-1748ad1bec31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Engine\Platform\SDL">
+      <UniqueIdentifier>{6a427386-f38a-400d-b563-3586ff4eb73f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\Core\Render">
+      <UniqueIdentifier>{bd228194-f397-40f0-b2f2-77e9ca98ed21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\Platform\SDL\Render">
+      <UniqueIdentifier>{d2fdb8f9-aaf7-4976-88d7-255f35cc3b30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Engine\Platform\SDL\Render">
+      <UniqueIdentifier>{256a831a-a294-46cf-807b-44217e9989a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\Core\Math">
+      <UniqueIdentifier>{16e9923b-3b18-41a0-8d88-d48b7e846b01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\Core\Resource">
+      <UniqueIdentifier>{cb7cec38-928a-4f4c-bfbd-5d7a2bbdf8af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Engine\Platform\SDL\Resource">
+      <UniqueIdentifier>{a2f1dd1a-9a83-46a9-819f-7a3d5aae2019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\Platform\SDL\Resource">
+      <UniqueIdentifier>{f47c35cd-4a17-46ca-aa60-9c6863bd72f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\Core\Animation">
+      <UniqueIdentifier>{da36edf7-90e5-4aa4-a6b3-6e5709652a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Engine\Core\Animation">
+      <UniqueIdentifier>{df82f51b-16fb-4341-90e7-2a4689a75b09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\Core\Animation\AnimationController">
+      <UniqueIdentifier>{a0e800c2-b2b1-4cb6-8c53-60faecb93a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Engine\Core\Animation\AnimationController">
+      <UniqueIdentifier>{e5db1d8e-22e7-431a-92ed-d0c06d0814bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\Core\Component">
+      <UniqueIdentifier>{a2b6099b-bb05-4527-ae9b-44fad27e4ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Engine\Core\Component">
+      <UniqueIdentifier>{1db6b60f-cf98-4ece-ab33-e57b8c2b380f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\Core\Camera">
+      <UniqueIdentifier>{1757243a-e960-4402-b47a-82b28f743eed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Engine\Core\Camera">
+      <UniqueIdentifier>{154f6a54-3968-4bc2-b637-a2071781d9de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\Core\Camera\CameraBehavior">
+      <UniqueIdentifier>{345611ea-95f6-4243-932f-61e23a7c5b30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Engine\Core\Camera\CameraBehavior">
+      <UniqueIdentifier>{56966572-7573-4068-b664-e58d197f9d0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\Core\System">
+      <UniqueIdentifier>{03774552-aec5-4145-9037-14a36607da71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Engine\Core\System">
+      <UniqueIdentifier>{fb29fbcd-bba5-4de8-a74c-003a6c3e1366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\Core\ConText">
+      <UniqueIdentifier>{2b7b97ed-6d3f-4ef4-a458-952e62c6d35d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GamePlay">
+      <UniqueIdentifier>{1a2d4a38-61e7-4515-82ef-a1ecbd078f5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GamePlay\Controller">
+      <UniqueIdentifier>{be4016c3-b83f-4f02-9585-86f18097eb99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GamePlay">
+      <UniqueIdentifier>{a0c1de2f-c0b2-47cc-8089-cac6ebb96945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GamePlay\Controller">
+      <UniqueIdentifier>{bf354468-afdc-4600-9cb8-abf22f148ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\Core\Animation\AnimationLayer">
+      <UniqueIdentifier>{c84e094c-6c76-4235-b6d4-31e98602851a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Engine\Core\Animation\AnimationLayer">
+      <UniqueIdentifier>{ccfdcc01-5440-41d9-8661-b82e10fdf43f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GamePlay\Component">
+      <UniqueIdentifier>{a05a1485-645f-4dce-8bd7-8e7be80da5eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GamePlay\Component">
+      <UniqueIdentifier>{6cc16332-63e7-4ba2-bec1-dc9e019c9c1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GamePlay\StateMachine">
+      <UniqueIdentifier>{a3201a32-b254-4a69-89bb-1914854986d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\Core\Input">
+      <UniqueIdentifier>{491a3e86-0608-4ea9-95cf-551e322593ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\Platform\SDL\Input">
+      <UniqueIdentifier>{ebbbf137-2a80-431e-8b40-6dc975b20b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Engine\Platform\SDL\Input">
+      <UniqueIdentifier>{74d75e15-0495-40a8-aa1e-673c06768b1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GamePlay\StateMachine\Player">
+      <UniqueIdentifier>{0d7bad02-2850-472a-8d26-58e12a4f855e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GamePlay\StateMachine\Player\Move">
+      <UniqueIdentifier>{12d923fc-b2f3-47da-93b9-4646f52e2e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\StateMachine">
+      <UniqueIdentifier>{58c36ffe-1a7e-4661-8fc1-728ab5ffcd90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\StateMachine\Player">
+      <UniqueIdentifier>{2e0fa5ad-2cc8-4647-a271-697530fbd500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\StateMachine\Player\Move">
+      <UniqueIdentifier>{a45f7d1f-1849-4d00-81a6-52dafa0f5f12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\StateMachine\Player\Action">
+      <UniqueIdentifier>{c1dec9ab-386c-4ccc-96d0-a5f66abc999e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GamePlay\StateMachine\Player\Action">
+      <UniqueIdentifier>{4454af54-0d3e-4ce0-ba51-1f6de309259c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GamePlay\System">
+      <UniqueIdentifier>{011e713d-8c04-412c-8b7f-65bf5388a7c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GamePlay\StateMachine\AI">
+      <UniqueIdentifier>{b85e7411-08a2-4920-9182-8054b0ebcc2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\StateMachine\AI">
+      <UniqueIdentifier>{15dd6230-2537-442a-aaa4-50d0da0e87ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GamePlay\AI">
+      <UniqueIdentifier>{d1c83717-dd56-4e2d-8d8b-95712d2c5b0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GamePlay\AI\AIInput">
+      <UniqueIdentifier>{32cb0591-23ca-4c94-b210-e269e3ec15dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GamePlay\AI\AIDecision">
+      <UniqueIdentifier>{88cf4e66-302d-4943-b0e1-7f1ff416a7fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GamePlay\AI\AIDecision\State">
+      <UniqueIdentifier>{202823bd-22bb-4638-8e61-4e4f393cfe2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GamePlay\AI">
+      <UniqueIdentifier>{c51bbddd-be38-417c-9ab1-e5bbecd94150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GamePlay\AI\AIInput">
+      <UniqueIdentifier>{ad5279a7-2ce5-4fda-85ba-17225cd7e292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GamePlay\AI\AIdecision">
+      <UniqueIdentifier>{08b2d10c-e891-41fe-8b94-d275b6493c36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GamePlay\AI\AIdecision\State">
+      <UniqueIdentifier>{031fbf52-259a-4829-952b-0f59b03b8340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\Core\Coroutine">
+      <UniqueIdentifier>{8df2c4fd-5c00-4e07-a5e5-af7f33254554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Engine\Core\Coroutine">
+      <UniqueIdentifier>{5813c5c3-7d74-4092-8fe9-4361424f03a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GamePlay\Scene">
+      <UniqueIdentifier>{57a0a1e0-2494-42d1-860f-22e32756941b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SDLPlatform.cpp">
+      <Filter>源文件\Engine\Platform\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="SDLTime.cpp">
+      <Filter>源文件\Engine\Platform\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineTime.cpp">
+      <Filter>源文件\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SDLTexture.cpp">
+      <Filter>源文件\Engine\Platform\SDL\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="SDLResourceManager.cpp">
+      <Filter>源文件\Engine\Platform\SDL\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationClip.cpp">
+      <Filter>源文件\Engine\Core\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationPlay.cpp">
+      <Filter>源文件\Engine\Core\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationClipManager.cpp">
+      <Filter>源文件\Engine\Core\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>源文件\Engine\Core\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="SDLWindow.cpp">
+      <Filter>源文件\Engine\Platform\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationController.cpp">
+      <Filter>源文件\Engine\Core\Animation\AnimationController</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationComponent.cpp">
+      <Filter>源文件\Engine\Core\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera2D.cpp">
+      <Filter>源文件\Engine\Core\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformComponent.cpp">
+      <Filter>源文件\Engine\Core\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>源文件\Engine\Core\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowTargetBehavior.cpp">
+      <Filter>源文件\Engine\Core\Camera\CameraBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraSystem.cpp">
+      <Filter>源文件\Engine\Core\System</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>源文件\Engine\Core\System</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationSystem.cpp">
+      <Filter>源文件\Engine\Core\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider2DComponent.cpp">
+      <Filter>源文件\Engine\Core\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody2DComponent.cpp">
+      <Filter>源文件\Engine\Core\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsSystem.cpp">
+      <Filter>源文件\Engine\Core\System</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllerComponent.cpp">
+      <Filter>源文件\GamePlay\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationLayer.cpp">
+      <Filter>源文件\Engine\Core\Animation\AnimationLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveComponent.cpp">
+      <Filter>源文件\GamePlay\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpComponent.cpp">
+      <Filter>源文件\GamePlay\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="SDLInput.cpp">
+      <Filter>源文件\Engine\Platform\SDL\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputComponent.cpp">
+      <Filter>源文件\Engine\Core\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseState.cpp">
+      <Filter>源文件\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>源文件\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="PNormalState.cpp">
+      <Filter>源文件\StateMachine\Player\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveStateMachine.cpp">
+      <Filter>源文件\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerControllerComponent.cpp">
+      <Filter>源文件\GamePlay\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationState.cpp">
+      <Filter>源文件\Engine\Core\Animation\AnimationController</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllerSystem.cpp">
+      <Filter>源文件\Engine\Core\System</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSystem.cpp">
+      <Filter>源文件\Engine\Core\System</Filter>
+    </ClCompile>
+    <ClCompile Include="PSlideState.cpp">
+      <Filter>源文件\StateMachine\Player\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionStateMachine.cpp">
+      <Filter>源文件\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="PAttackForwardState.cpp">
+      <Filter>源文件\StateMachine\Player\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="PNoneState.cpp">
+      <Filter>源文件\StateMachine\Player\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="PAttackUpState.cpp">
+      <Filter>源文件\StateMachine\Player\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="PAttackDownState.cpp">
+      <Filter>源文件\StateMachine\Player\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="PrefabManager.cpp">
+      <Filter>源文件\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>源文件\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>源文件\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>源文件\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="LifeTimeComponent.cpp">
+      <Filter>源文件\Engine\Core\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="LifeTimeSystem.cpp">
+      <Filter>源文件\Engine\Core\System</Filter>
+    </ClCompile>
+    <ClCompile Include="TagComponent.cpp">
+      <Filter>源文件\Engine\Core\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="HpComponent.cpp">
+      <Filter>源文件\GamePlay\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageComponent.cpp">
+      <Filter>源文件\GamePlay\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformSystem.cpp">
+      <Filter>源文件\Engine\Core\System</Filter>
+    </ClCompile>
+    <ClCompile Include="AIStateMachine.cpp">
+      <Filter>源文件\StateMachine\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AIIdleState.cpp">
+      <Filter>源文件\StateMachine\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AIJumpState.cpp">
+      <Filter>源文件\StateMachine\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AIRunState.cpp">
+      <Filter>源文件\StateMachine\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugSystem.cpp">
+      <Filter>源文件\Engine\Core\System</Filter>
+    </ClCompile>
+    <ClCompile Include="AIControllerComponent.cpp">
+      <Filter>源文件\GamePlay\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="AIDec_ChaseState.cpp">
+      <Filter>源文件\GamePlay\AI\AIdecision\State</Filter>
+    </ClCompile>
+    <ClCompile Include="AIDec_IdleState.cpp">
+      <Filter>源文件\GamePlay\AI\AIdecision\State</Filter>
+    </ClCompile>
+    <ClCompile Include="AIDec_PatrolState.cpp">
+      <Filter>源文件\GamePlay\AI\AIdecision\State</Filter>
+    </ClCompile>
+    <ClCompile Include="AIDecisionMachine.cpp">
+      <Filter>源文件\GamePlay\AI\AIdecision</Filter>
+    </ClCompile>
+    <ClCompile Include="AIInput.cpp">
+      <Filter>源文件\GamePlay\AI\AIInput</Filter>
+    </ClCompile>
+    <ClCompile Include="AISensorController.cpp">
+      <Filter>源文件\GamePlay\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="AIDec_AttackState.cpp">
+      <Filter>源文件\GamePlay\AI\AIdecision\State</Filter>
+    </ClCompile>
+    <ClCompile Include="SDLRender.cpp">
+      <Filter>源文件\Engine\Platform\SDL\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="AIAttackState.cpp">
+      <Filter>源文件\StateMachine\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Coroutine.cpp">
+      <Filter>源文件\Engine\Core\Coroutine</Filter>
+    </ClCompile>
+    <ClCompile Include="CoroutineManager.cpp">
+      <Filter>源文件\Engine\Core\Coroutine</Filter>
+    </ClCompile>
+    <ClCompile Include="PHurtState.cpp">
+      <Filter>源文件\StateMachine\Player\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageSystem.cpp">
+      <Filter>源文件\Engine\Core\System</Filter>
+    </ClCompile>
+    <ClCompile Include="AIHurtState.cpp">
+      <Filter>源文件\StateMachine\AI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Time.h">
+      <Filter>头文件\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>头文件\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLPlatform.h">
+      <Filter>头文件\Engine\Platform\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineTime.h">
+      <Filter>头文件\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLTime.h">
+      <Filter>头文件\Engine\Platform\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>头文件\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>头文件\Engine\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>头文件\Engine\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLTexture.h">
+      <Filter>头文件\Engine\Platform\SDL\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>头文件\Engine\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>头文件\Engine\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>头文件\Engine\Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLResourceManager.h">
+      <Filter>头文件\Engine\Platform\SDL\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>头文件\Engine\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationFrame.h">
+      <Filter>头文件\Engine\Core\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationClip.h">
+      <Filter>头文件\Engine\Core\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationPlay.h">
+      <Filter>头文件\Engine\Core\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationClipManager.h">
+      <Filter>头文件\Engine\Core\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="TransitionCondition.h">
+      <Filter>头文件\Engine\Core\Animation\AnimationController</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>头文件\Engine\Core\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>头文件\Engine\Core\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLWindow.h">
+      <Filter>头文件\Engine\Platform\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationComponent.h">
+      <Filter>头文件\Engine\Core\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationController.h">
+      <Filter>头文件\Engine\Core\Animation\AnimationController</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera2D.h">
+      <Filter>头文件\Engine\Core\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraBehavior.h">
+      <Filter>头文件\Engine\Core\Camera\CameraBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowTargetBehavior.h">
+      <Filter>头文件\Engine\Core\Camera\CameraBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>头文件\Engine\Core\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraSystem.h">
+      <Filter>头文件\Engine\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>头文件\Engine\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>头文件\Engine\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationSystem.h">
+      <Filter>头文件\Engine\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider2DComponent.h">
+      <Filter>头文件\Engine\Core\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody2DComponent.h">
+      <Filter>头文件\Engine\Core\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsSystem.h">
+      <Filter>头文件\Engine\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionInfo.h">
+      <Filter>头文件\Engine\Core\ConText</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerComponent.h">
+      <Filter>头文件\GamePlay\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationLayer.h">
+      <Filter>头文件\Engine\Core\Animation\AnimationLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveComponent.h">
+      <Filter>头文件\GamePlay\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpComponent.h">
+      <Filter>头文件\GamePlay\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>头文件\Engine\Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLInput.h">
+      <Filter>头文件\Engine\Platform\SDL\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputComponent.h">
+      <Filter>头文件\Engine\Core\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseState.h">
+      <Filter>头文件\GamePlay\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>头文件\GamePlay\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerControllerComponent.h">
+      <Filter>头文件\GamePlay\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveStateMachine.h">
+      <Filter>头文件\GamePlay\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="PNormalState.h">
+      <Filter>头文件\GamePlay\StateMachine\Player\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationTransition.h">
+      <Filter>头文件\Engine\Core\Animation\AnimationController</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationState.h">
+      <Filter>头文件\Engine\Core\Animation\AnimationController</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerSystem.h">
+      <Filter>头文件\Engine\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>头文件\Engine\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="PSlideState.h">
+      <Filter>头文件\GamePlay\StateMachine\Player\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="PAttackForwardState.h">
+      <Filter>头文件\GamePlay\StateMachine\Player\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionStateMachine.h">
+      <Filter>头文件\GamePlay\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="PNoneState.h">
+      <Filter>头文件\GamePlay\StateMachine\Player\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="PAttackUpState.h">
+      <Filter>头文件\GamePlay\StateMachine\Player\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="PAttackDownState.h">
+      <Filter>头文件\GamePlay\StateMachine\Player\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="PrefabManager.h">
+      <Filter>头文件\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>头文件\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>头文件\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="LifeTimeComponent.h">
+      <Filter>头文件\Engine\Core\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="LifeTimeSystem.h">
+      <Filter>头文件\Engine\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="TagComponent.h">
+      <Filter>头文件\Engine\Core\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="HpComponent.h">
+      <Filter>头文件\GamePlay\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageComponent.h">
+      <Filter>头文件\GamePlay\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugSystem.h">
+      <Filter>头文件\Engine\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformSystem.h">
+      <Filter>头文件\Engine\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="AIControllerComponent.h">
+      <Filter>头文件\GamePlay\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="AIStateMachine.h">
+      <Filter>头文件\GamePlay\StateMachine\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AIIdleState.h">
+      <Filter>头文件\GamePlay\StateMachine\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AIRunState.h">
+      <Filter>头文件\GamePlay\StateMachine\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AIJumpState.h">
+      <Filter>头文件\GamePlay\StateMachine\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AIAttackState.h">
+      <Filter>头文件\GamePlay\StateMachine\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AIInput.h">
+      <Filter>头文件\GamePlay\AI\AIInput</Filter>
+    </ClInclude>
+    <ClInclude Include="AIDecisionMachine.h">
+      <Filter>头文件\GamePlay\AI\AIDecision</Filter>
+    </ClInclude>
+    <ClInclude Include="AIDec_IdleState.h">
+      <Filter>头文件\GamePlay\AI\AIDecision\State</Filter>
+    </ClInclude>
+    <ClInclude Include="AIDec_PatrolState.h">
+      <Filter>头文件\GamePlay\AI\AIDecision\State</Filter>
+    </ClInclude>
+    <ClInclude Include="AIDec_ChaseState.h">
+      <Filter>头文件\GamePlay\AI\AIDecision\State</Filter>
+    </ClInclude>
+    <ClInclude Include="AISensorController.h">
+      <Filter>头文件\GamePlay\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="AIDec_AttackState.h">
+      <Filter>头文件\GamePlay\AI\AIDecision\State</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLRender.h">
+      <Filter>头文件\Engine\Platform\SDL\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Coroutine.h">
+      <Filter>头文件\Engine\Core\Coroutine</Filter>
+    </ClInclude>
+    <ClInclude Include="CoroutineManager.h">
+      <Filter>头文件\Engine\Core\Coroutine</Filter>
+    </ClInclude>
+    <ClInclude Include="PHurtState.h">
+      <Filter>头文件\GamePlay\StateMachine\Player\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageSystem.h">
+      <Filter>头文件\Engine\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>头文件\GamePlay\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneData.h">
+      <Filter>头文件\GamePlay\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="AIHurtState.h">
+      <Filter>头文件\GamePlay\StateMachine\AI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
