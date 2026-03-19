@@ -1,5 +1,4 @@
 #一个基于 C++ 与 SDL 实现的 2D 动作游戏框架，用于探索游戏客户端常见系统设计，包括角色控制、AI 行为以及场景动态加载等功能。
-一个基于 **C++ 与 SDL** 实现的 2D 动作游戏框架，用于探索游戏客户端常见系统设计，包括角色控制、AI 行为以及场景动态加载等功能。
 
 ---
 
@@ -26,6 +25,7 @@ Component 表示 Entity 的能力。
 Component 分为两类：
 
 数据型 Component  
+
 例如：
 
 JumpComponent
@@ -225,6 +225,5 @@ Player 存在大量打断式动作，例如：
 
 ---
 
-# 项目说明
-
-该项目为个人学习项目，用于探索游戏客户端基础架构设计。
+# 项目展示
+(https://www.bilibili.com/video/BV1LewazME8Q/?spm_id_from=333.1387.homepage.video_card.click&vd_source=fa2133aac5f1c74a4709b5b3e6d25be2)
